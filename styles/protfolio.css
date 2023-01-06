@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.header {
+    margin: 0;
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+
+/* button Hire Me */
+.btn-primary {
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.btn-sec {
+    align-items: center;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 60px 20px 18px;
+
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FD6E0A;
+}
+
+/* header & Nav Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+}
+
+/* Portfolio Blo Hire Me */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* banner style */
+.banner {
+    margin: 0 160px;
+    display: flex;
+    align-items: center;
+}
+
+/* Hi I'm */
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content {
+    font-weight: 400;
+    font-size: 18px;
+    color: #474747;
+    margin: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+/* about section */
+.about {
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 5px;
+    padding: 130px 180px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #181818;
+
+}
+
+.section-dscription{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-info-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #181818;
+}
+.info-des{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
